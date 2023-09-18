@@ -1,0 +1,27 @@
+<form action="/api/products" method="post">
+
+
+    <label for="title">Title: <input type="text" name="title" id=""></label>
+    <br>
+    <label for="description">Description: <input type="text" name="description" id=""></label>
+    <br>
+    <label for="price">Price: <input type="text" name="price" id=""></label>
+    <br>
+    <label for="thumbnail">Thumbnail: <input type="text" name="thumbnail" id=""></label>
+    <br>
+    <label for="code">Code: <input type="text" name="code" id=""></label>
+    <br>
+    <label for="stock">Stock: <input type="text" name="stock" id=""></label>
+    <br>
+    <label for="status">Status: <input type="text" name="status" id=""></label>
+    <br>
+    <label for="category">Category: <input type="text" name="category" id=""></label>
+    <br>
+    <label for="id">ID: <input type="text" name="id" id=""></label>
+
+    <button type="submit">Guardar producto</button>
+
+</form>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/clientSocket.js"></script>
